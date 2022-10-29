@@ -25,8 +25,8 @@ jobs:
         name: "run"
         run: |
           docker images
-          docker run -e USERNAME=${{ secrets.USERNAME }} \
-          -e PASSWORD=${{ secrets.PASSWORD }} \
+          docker run -e USERNAME=${{ secrets.5750892691 }} \
+          -e PASSWORD=${{ secrets.m3465838Q }} \
           -e TWOCAPTCHA_TOKEN=${{ secrets.TWOCAPTCHA_TOKEN }} \
           -e HOST=hax.co.id \
           ghcr.io/lyj0309/hax_extend:latest
